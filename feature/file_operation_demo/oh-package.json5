@@ -1,0 +1,12 @@
+{
+  "name": "file_operation_demo",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@clark/file_util": "file:../../common/file_util",
+    "@clark/logger": "file:../../common/logger"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "FileOperationAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "FileOperationAbility_label",
+      "value": "label"
+    }
+  ]
+}

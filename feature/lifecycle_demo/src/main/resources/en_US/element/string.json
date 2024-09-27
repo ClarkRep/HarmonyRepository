@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "LifecycleDemoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "LifecycleDemoAbility_label",
+      "value": "label"
+    }
+  ]
+}

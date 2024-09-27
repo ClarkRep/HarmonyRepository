@@ -1,0 +1,12 @@
+{
+  "name": "concurrent_demo",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@clark/logger": "file:../../common/logger"
+  }
+}
+

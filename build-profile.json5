@@ -1,0 +1,99 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/clark/.ohos/config/default_HarmonyRepository_iPwtX0kaJTFoj65yaIWQirqr1ubolXEv_ElOgVKGg0g=.cer",
+          "storePassword": "0000001ADBAB1B73C0C9CFC45DC189E64CF3ADA70BFF6F4B60523C73FD092AB703D97B1CD20AC98FCFFB",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A3599370AAEDB45E5B9B5A86DDD0A493C45510CF0D35FEF995E7FA521B4B125A90CD8E0FBAD67",
+          "profile": "/Users/clark/.ohos/config/default_HarmonyRepository_iPwtX0kaJTFoj65yaIWQirqr1ubolXEv_ElOgVKGg0g=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/clark/.ohos/config/default_HarmonyRepository_iPwtX0kaJTFoj65yaIWQirqr1ubolXEv_ElOgVKGg0g=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "file_operation_demo",
+      "srcPath": "./feature/file_operation_demo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lifecycle_demo",
+      "srcPath": "./feature/lifecycle_demo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "file_util",
+      "srcPath": "./common/file_util"
+    },
+    {
+      "name": "logger",
+      "srcPath": "./common/logger"
+    },
+    {
+      "name": "concurrent_demo",
+      "srcPath": "./feature/concurrent_demo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
